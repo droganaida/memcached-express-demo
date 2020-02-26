@@ -1,0 +1,16 @@
+{
+  "name": "memcached-demo-blondiecode",
+  "version": "1.0.0",
+  "description": "Express + Memcached demo",
+  "main": "app.js",
+  "author": "Aida Drogan #BlondieCode",
+  "scripts": {
+    "basic": "node appBasic.js",
+    "pro": "node app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "memcached": "^2.2.2"
+  }
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<%- include ./common/head.ejs %>
+<body>
+<div class="holder flex col">
+    <%- include ./common/header.ejs %>
+    <main>
+        <h1>Cache me!</h1>
+        <h2>I'm sooo huge</h2>
+        <% const buttons = [{img: '/images/cat.jpg', alt: 'big cat'}] %>
+        <%- include elements/buttons.ejs %>
+    </main>
+    <%- include ./common/footer.ejs %>
+</div>
+<%- include ./common/scriptpack.ejs %>
+</body>
+</html>

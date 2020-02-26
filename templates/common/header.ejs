@@ -1,0 +1,12 @@
+<header>
+    <nav>
+        <ul class="flex row">
+            <% mainMenu.forEach(item => { %>
+                <% const activeClass = (page === item.page) ? 'active' : '' %>
+                <li>
+                    <a href="<%=item.url%>" class="<%=activeClass%>"><%=item.text%></a>
+                </li>
+            <% }) %>
+        </ul>
+    </nav>
+</header>
