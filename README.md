@@ -35,7 +35,7 @@ telnet localhost 11211
 stats
 quit
 ```
-All commands list: https://github.com/memcached/memcached/wiki/Commands
+All commands: https://github.com/memcached/memcached/wiki/Commands
 
 Delete all keys:
 
