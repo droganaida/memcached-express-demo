@@ -10,7 +10,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "memcached": "^2.2.2"
   }
 }
